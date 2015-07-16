@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD658197-AD91-416A-9EF7-C608449C3A01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0B6F1C86B27A29F90869800577811001348944D</key>
+		<string>https://github.com/anisha-agarwal/delegatesChallenge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>delegatesChallenge.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0B6F1C86B27A29F90869800577811001348944D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anisha-agarwal/delegatesChallenge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0B6F1C86B27A29F90869800577811001348944D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0B6F1C86B27A29F90869800577811001348944D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>delegatesChallenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>

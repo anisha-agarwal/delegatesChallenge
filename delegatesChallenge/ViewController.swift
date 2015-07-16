@@ -8,17 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var zipCodeTextField: UITextField!
+    @IBOutlet weak var dollarTextField: UITextField!
+    @IBOutlet weak var toggleTextField: UITextField!
+    @IBOutlet weak var toggleButton: UISwitch!
+    
+    let zipCodeDelegate = zipCodeTextFieldDelegate()
+    let dollarDelegate = dollarTextFieldDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.zipCodeTextField.delegate = zipCodeDelegate
+        self.dollarTextField.delegate = dollarDelegate
+        self.toggleTextField.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        println(self.toggleButton.on)
+        return self.toggleButton.on
+        
     }
+    
+    
 
 
 }

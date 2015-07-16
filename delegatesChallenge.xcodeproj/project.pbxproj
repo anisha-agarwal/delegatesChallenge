@@ -13,6 +13,8 @@
 		7DACAF2C1B570A7A003D94D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DACAF2B1B570A7A003D94D0 /* Images.xcassets */; };
 		7DACAF2F1B570A7A003D94D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DACAF2D1B570A7A003D94D0 /* LaunchScreen.xib */; };
 		7DACAF3B1B570A7A003D94D0 /* delegatesChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DACAF3A1B570A7A003D94D0 /* delegatesChallengeTests.swift */; };
+		7DACAF461B5711C0003D94D0 /* zipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DACAF451B5711C0003D94D0 /* zipCodeTextFieldDelegate.swift */; };
+		7DACAF481B5711E0003D94D0 /* dollarTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DACAF471B5711E0003D94D0 /* dollarTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7DACAF341B570A7A003D94D0 /* delegatesChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatesChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DACAF391B570A7A003D94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DACAF3A1B570A7A003D94D0 /* delegatesChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegatesChallengeTests.swift; sourceTree = "<group>"; };
+		7DACAF451B5711C0003D94D0 /* zipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		7DACAF471B5711E0003D94D0 /* dollarTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dollarTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,10 @@
 		7DACAF211B570A7A003D94D0 /* delegatesChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				7DACAF241B570A7A003D94D0 /* AppDelegate.swift */,
 				7DACAF261B570A7A003D94D0 /* ViewController.swift */,
 				7DACAF281B570A7A003D94D0 /* Main.storyboard */,
+				7DACAF441B570B6E003D94D0 /* Text Field Delegates */,
+				7DACAF241B570A7A003D94D0 /* AppDelegate.swift */,
 				7DACAF2B1B570A7A003D94D0 /* Images.xcassets */,
 				7DACAF2D1B570A7A003D94D0 /* LaunchScreen.xib */,
 				7DACAF221B570A7A003D94D0 /* Supporting Files */,
@@ -110,6 +115,16 @@
 				7DACAF391B570A7A003D94D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DACAF441B570B6E003D94D0 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7DACAF451B5711C0003D94D0 /* zipCodeTextFieldDelegate.swift */,
+				7DACAF471B5711E0003D94D0 /* dollarTextFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
+			path = ../delegatesChallenge.xcodeproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DACAF461B5711C0003D94D0 /* zipCodeTextFieldDelegate.swift in Sources */,
 				7DACAF271B570A7A003D94D0 /* ViewController.swift in Sources */,
+				7DACAF481B5711E0003D94D0 /* dollarTextFieldDelegate.swift in Sources */,
 				7DACAF251B570A7A003D94D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
